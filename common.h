@@ -110,7 +110,7 @@ public:
         this->devicePtr = nullptr;
     }
 
-    DISABLE_COPY(CudaMemory);
+    DISABLE_COPY(CudaMemory)
 
     T* operator*()
     {
