@@ -1,0 +1,92 @@
+{
+    "extension": "nsight-cuproj",
+    "files": [
+        {
+            "path": "../../../../../experiments/cuda/divergence/div.nsight-cuprof-report"
+        },
+        {
+            "is_open": true,
+            "path": "../../../../../experiments/cuda/divergence/div0.nsight-cuprof-report"
+        },
+        {
+            "path": "../../../../../experiments/cuda/divergence/div31.nsight-cuprof-report"
+        },
+        {
+            "path": "../../../../../experiments/cuda/divergence/div1.nsight-cuprof-report"
+        },
+        {
+            "path": "../../../../../experiments/cuda/divergence/divsincos0.nsight-cuprof-report"
+        },
+        {
+            "path": "../../../../../experiments/cuda/divergence/divsincosi0.nsight-cuprof-report"
+        },
+        {
+            "path": "../../../../../experiments/cuda/divergence/divsincosi5.nsight-cuprof-report"
+        },
+        {
+            "path": "../../../../../experiments/cuda/divergence/github/div0.nsight-cuprof-report"
+        },
+        {
+            "path": "../../../../../experiments/cuda/divergence/github/div1.nsight-cuprof-report"
+        },
+        {
+            "path": "../../../../../experiments/cuda/divergence/github/div10.nsight-cuprof-report"
+        }
+    ],
+    "launcher": {
+        "activity/interactiveprofile/clockcontrol": "Base",
+        "activity/interactiveprofile/disableprofilingstartstop": false,
+        "activity/interactiveprofile/enablenvtxsupport": false,
+        "activity/interactiveprofile/enableprofilingfromstart": true,
+        "activity/profile/applyrules": false,
+        "activity/profile/clockcontrol": "Base",
+        "activity/profile/disableprofilingstartstop": false,
+        "activity/profile/enablenvtxsupport": false,
+        "activity/profile/enableprofilingfromstart": true,
+        "activity/profile/forceoverwrite": true,
+        "activity/profile/kernelid": "",
+        "activity/profile/kernelregex": "",
+        "activity/profile/kernelregexbase": "Function",
+        "activity/profile/launchcapturecount": "0",
+        "activity/profile/launchskipbeforematchcount": "0",
+        "activity/profile/launchskipcount": "0",
+        "activity/profile/metrics": "",
+        "activity/profile/nvtxincludeexcludeoptions": "",
+        "activity/profile/outputfile": "/home/skhadka/experiments/cuda/divergence/github/div10",
+        "activity/profile/samplingBufferSize": "33554432",
+        "activity/profile/samplingInterval": "5",
+        "activity/profile/samplingIntervalAuto": true,
+        "activity/profile/samplingMaxPasses": "5",
+        "activity/profile/targetprocesses": "Application Only",
+        "platform/linux (ppc64le)/device": "",
+        "platform/linux (x86_64)/device": "localhost",
+        "platform/linux/arguments": "10",
+        "platform/linux/arguments/history": [
+            "10",
+            "1",
+            "0",
+            "5",
+            "31"
+        ],
+        "platform/linux/autoconnect": true,
+        "platform/linux/environment": "",
+        "platform/linux/executable": "/home/skhadka/github/hardware/hardware-effects-gpu/build/divergence/divergence",
+        "platform/linux/executable/history": [
+            "/home/skhadka/github/hardware/hardware-effects-gpu/build/divergence/divergence"
+        ],
+        "platform/linux/workingdir": "",
+        "platform/ppc/arguments": "",
+        "platform/ppc/autoconnect": true,
+        "platform/ppc/environment": "",
+        "platform/ppc/executable": "",
+        "platform/ppc/workingdir": "",
+        "platform/win32/arguments": "",
+        "platform/win32/autoconnect": true,
+        "platform/win32/environment": "",
+        "platform/win32/executable": "",
+        "platform/win32/workingdir": "",
+        "platform/windows/device": ""
+    },
+    "uuid": "{75973cd8-525d-4d9f-ba5a-fcea35037528}",
+    "version": "1.0"
+}

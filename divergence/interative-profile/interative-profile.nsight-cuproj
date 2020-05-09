@@ -1,0 +1,65 @@
+{
+    "extension": "nsight-cuproj",
+    "files": [
+        {
+            "path": "../../../../../experiments/cuda/divergence/divergence_source.nsight-cuprof-report"
+        }
+    ],
+    "launcher": {
+        "activity/interactiveprofile/clockcontrol": "Base",
+        "activity/interactiveprofile/disableprofilingstartstop": false,
+        "activity/interactiveprofile/enablenvtxsupport": false,
+        "activity/interactiveprofile/enableprofilingfromstart": true,
+        "activity/profile/applyrules": false,
+        "activity/profile/clockcontrol": "Base",
+        "activity/profile/computeworkloadanalysis": false,
+        "activity/profile/disableprofilingstartstop": false,
+        "activity/profile/enablenvtxsupport": false,
+        "activity/profile/enableprofilingfromstart": true,
+        "activity/profile/forceoverwrite": true,
+        "activity/profile/instructionstats": true,
+        "activity/profile/kernelid": "",
+        "activity/profile/kernelregex": "",
+        "activity/profile/kernelregexbase": "Function",
+        "activity/profile/launchcapturecount": "0",
+        "activity/profile/launchskipbeforematchcount": "0",
+        "activity/profile/launchskipcount": "0",
+        "activity/profile/launchstats": false,
+        "activity/profile/memoryworkloadanalysis": false,
+        "activity/profile/memoryworkloadanalysis_chart": false,
+        "activity/profile/memoryworkloadanalysis_tables": false,
+        "activity/profile/metrics": "",
+        "activity/profile/occupancy": false,
+        "activity/profile/outputfile": "/home/skhadka/experiments/cuda/divergence/static_profile",
+        "activity/profile/samplingBufferSize": "33554432",
+        "activity/profile/samplingInterval": "5",
+        "activity/profile/samplingIntervalAuto": true,
+        "activity/profile/samplingMaxPasses": "5",
+        "activity/profile/schedulerstats": false,
+        "activity/profile/sourcecounters": true,
+        "activity/profile/speedoflight": false,
+        "activity/profile/targetprocesses": "Application Only",
+        "activity/profile/warpstatestats": true,
+        "platform/linux/arguments": "33",
+        "platform/linux/arguments/history": [
+            "33",
+            "16"
+        ],
+        "platform/linux/autoconnect": true,
+        "platform/linux/device": "localhost",
+        "platform/linux/environment": "",
+        "platform/linux/executable": "/home/skhadka/github/hardware/hardware-effects-gpu/build/divergence/divergence",
+        "platform/linux/executable/history": [
+            "/home/skhadka/github/hardware/hardware-effects-gpu/build/divergence/divergence"
+        ],
+        "platform/linux/workingdir": "",
+        "platform/win32/arguments": "",
+        "platform/win32/autoconnect": true,
+        "platform/win32/environment": "",
+        "platform/win32/executable": "",
+        "platform/win32/workingdir": "",
+        "platform/windows/device": ""
+    },
+    "uuid": "{cedf399b-d4b5-47b6-af42-a2f8ccfad91f}",
+    "version": "1.0"
+}

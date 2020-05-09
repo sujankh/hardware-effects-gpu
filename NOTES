@@ -1,0 +1,38 @@
+- Register spilling
+   - Try use --maxregcount
+- Shared memory bank conflict
+       - Each threads in the warp if they access different shmem banks, thats good
+- Block sizes that are not multiple of 64
+   - This also causes register memory bank conflict
+
+- Register read-after-write dependency
+  - Causes 24 cycles latency
+  - https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#registers
+
+- Timeslices of kernels running in different CUDA contexts
+    - Single cuda context running 2 kernels
+    - Vs 2 cuda contexts each running one kernel
+
+- Pinned memory transfers
+
+- Zero copy
+   - Directly Load or Store Host memory (Using only once is good)
+   - The memory must be mapped and pinned (i.e non-pageable)
+
+- Constant memory
+- Texture memory
+
+- Thread local memory
+   -- Expensive since this memory is off-chip
+   https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#local-memory
+
+
+Control Flow
+https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#control-flow
+
+Divergence
+ - Different threads taking different paths
+ Predication info: https://docs.nvidia.com/gameworks/content/developertools/desktop/analysis/report/cudaexperiments/sourcelevel/instructioncount.htm
+
+ Synchronization of divergent threads
+    - __syncthreads()
